@@ -1,0 +1,2 @@
+user_init.c:10:6:Start_Peripheral	8	static
+user_init.c:22:6:HAL_TIM_PeriodElapsedCallback	16	static
