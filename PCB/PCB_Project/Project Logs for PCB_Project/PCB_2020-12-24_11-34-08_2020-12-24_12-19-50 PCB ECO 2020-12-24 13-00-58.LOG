@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetJP1_2 Pin=R1-1
+Removed Pin From Net: NetName=V_IN- Pin=R1-2
+Added Pin To Net: NetName=V_IN- Pin=R1-1
+Added Pin To Net: NetName=NetJP1_2 Pin=R1-2
+Added Room: Name=part_1_2020-12-24_12-20-03
