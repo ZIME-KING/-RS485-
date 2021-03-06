@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=KEY1-1
-Removed Pin From Net: NetName=GND Pin=KEY2-1
-Removed Pin From Net: NetName=GND Pin=KEY3-1
-Removed Pin From Net: NetName=GND Pin=KEY4-1
-Removed Member From Class: ClassName=part_1_2020-12-24_12-20-03 Member=KEY1
-Removed Member From Class: ClassName=part_1_2020-12-24_12-20-03 Member=KEY2
-Removed Member From Class: ClassName=part_1_2020-12-24_12-20-03 Member=KEY3
-Removed Member From Class: ClassName=part_1_2020-12-24_12-20-03 Member=KEY4
-Added Room: Name=part_1_2020-12-24_12-20-03

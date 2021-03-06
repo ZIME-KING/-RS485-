@@ -1,7 +1,0 @@
-u8g2_init.c:39:9:User_u8x8_byte_hw_i2c	40	static
-u8g2_init.c:78:9:u8x8_gpio_and_delay_template	24	static
-u8g2_init.c:140:6:User_U8g2_Init	16	static
-u8g2_init.c:166:6:User_Display_Function_1	40	static
-u8g2_init.c:201:9:Map_V	16	static
-u8g2_init.c:207:9:Map_C	16	static
-u8g2_init.c:213:6:Vave_V	40	static

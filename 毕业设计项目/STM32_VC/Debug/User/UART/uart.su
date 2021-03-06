@@ -1,5 +1,0 @@
-uart.c:15:6:Uart_Time_Even	8	static
-uart.c:43:6:Receive_Interrupt	8	static
-uart.c:66:6:Uart_Data_Processing	8	static
-uart.c:85:6:HAL_UART_RxCpltCallback	16	static
-uart.c:98:6:HAL_UART_Transmit_Str	24	static
