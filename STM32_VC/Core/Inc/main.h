@@ -32,11 +32,52 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+extern ADC_HandleTypeDef hadc1;
+extern DMA_HandleTypeDef hdma_adc1;
+
+extern I2C_HandleTypeDef hi2c1;
+
+extern TIM_HandleTypeDef htim2;
+
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart3;
+
+
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+
+#include "uart.h"
+#include "software_Time.h"
+#include "led_function.h"
+#include "key_function.h"
+#include "sys.h"
+#include "u8g2_init.h"
+#include "user_init.h"
+#include "u8g2.h"
+#include "user_init.h"
+#include "user_function.h"
+
 
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+//#define MASTER
+#define SLAVE
+#define SLAVE_ID 1
+//#define SLAVE_ID  2
+
+#ifdef MASTER
+extern uint8_t mode_flag;
+extern uint8_t send_flag;
+extern float ID1_C;
+extern float ID1_V;
+
+extern float ID2_C;
+extern float ID2_V;
+
+#endif
 
 /* USER CODE END ET */
 
@@ -58,6 +99,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_TEST_Pin GPIO_PIN_13
+#define LED_TEST_GPIO_Port GPIOC
+#define KEY_0_Pin GPIO_PIN_14
+#define KEY_0_GPIO_Port GPIOC
+#define KEY_1_Pin GPIO_PIN_15
+#define KEY_1_GPIO_Port GPIOC
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

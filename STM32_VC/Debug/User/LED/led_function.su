@@ -1,0 +1,3 @@
+led_function.c:14:13:Delay_1us	24	static
+led_function.c:26:13:led_function_1	16	static
+led_function.c:38:6:led_function_2	32	static
